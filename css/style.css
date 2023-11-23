@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-family: 'robotolight';
+}
+
+@font-face {
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-family: 'robotomedium';
+}
+
+@font-face {
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-family: 'robotoregular';
+}
+
+body {
+    /* font-family: 'robotoregular'; */
+}
+.content {
+    font-size: 20px;
+}
+
+.custom_container {
+    max-width: 1200px;
+}
+
+.custom_container img {
+    width: 50px;
+}
+
+.custom_accordion .accordion-button {
+    padding: 10px 15px;
+}
+
+ 

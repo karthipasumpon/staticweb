@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-family: 'robotolight';
+}
+@font-face {
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-family: 'robotomedium';
+}
+@font-face {
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-family: 'robotoregular';
+}
+body {
+    font-family: 'robotoregular';
+}
+.container {
+    width: 1170px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+.top_nav_container {
+    background-color: red;
+}
+.top_navigation {
+    padding: 15px 0;
+    /* background-color: red; */
+}
+.top_navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+.top_navigation ul li {
+    margin-right: 20px;
+}
+.top_navigation ul li a {
+    text-decoration: none;
+}
+.top_navigation ul li:last-child {
+    position: relative;
+}
+.top_navigation ul li:last-child {
+    margin-right: 0;
+}
+.top_navigation ul li:last-child::before {
+    content: "";
+    width: 2px;
+    height: 16px;
+    background-color: #3F51B5;
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+}
+.menu_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+.menu ul li {
+    margin-right: 50px;
+}
+.menu ul li:last-child {
+    margin-right: 0;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.main_banner {
+    position: relative;
+}
+.banner_image img {
+    width: 100%;
+}
+.banner_content {
+    padding-top: 120px;
+}
+.banner_content {
+    position: absolute;
+    top: 0;
+}
+.banner_content h2 {
+    font-size: 42px;
+    line-height: 54px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.banner_content p {
+    font-size: 24px;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+.banner_content a {
+    display: inline-block;
+    background-color: red;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.banner_content h2 span,
+.banner_content p span {
+    display: block;
+}
+
+.outputdata {
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+}
+
+table, td, th {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
